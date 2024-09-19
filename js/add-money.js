@@ -26,7 +26,7 @@ document.getElementById("add-money-btn")
             // New Balance 
             const newBalance = balanceNumber + addMoneyNumber;
             // Update the DOM with updated balance 
-            document.getElementById("account-balance").innerHTML = newBalance;
+            document.getElementById("account-balance").innerText = newBalance;
 
         }
         else {
